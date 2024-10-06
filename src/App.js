@@ -1,9 +1,13 @@
-import './App.css';
-
+import { Nav, Hero, Model } from './sections';
 function App() {
   return (
     <div className="App">
-<h1 className="text-red-500"> title</h1>
+      <main>
+        <Nav />
+        <Hero />
+        <Model />
+      </main>
+
     </div>
   );
 }
