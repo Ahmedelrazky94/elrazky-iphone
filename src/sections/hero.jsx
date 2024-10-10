@@ -28,7 +28,6 @@ export const Hero = () => {
                 {/* added key to force react to re render the video component wen state changed */}
                 <source src={HeroVideo} />
             </video>
-
         </section>
     )
 }
