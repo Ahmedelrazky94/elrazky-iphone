@@ -4,13 +4,13 @@ export function Model(props) {
   const { nodes, materials } = useGLTF('/scene.glb')
   return (
     <group {...props} dispose={null}>
-      <mesh
+      <mesh 
         castShadow
         receiveShadow
         geometry={nodes.ttmRoLdJipiIOmf.geometry}
         material={materials.hUlRcbieVuIiOXG}
         scale={0.01}
-      />
+      /> 
       <mesh
         castShadow
         receiveShadow
@@ -18,7 +18,8 @@ export function Model(props) {
         material={materials.PaletteMaterial001}
         scale={0.01}
       />
-      <mesh
+      
+      <mesh 
         castShadow
         receiveShadow
         geometry={nodes.buRWvyqhBBgcJFo.geometry}

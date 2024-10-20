@@ -7,7 +7,6 @@ function App() {
         <Hero />
         <Model />
       </main>
-
     </div>
   );
 }
