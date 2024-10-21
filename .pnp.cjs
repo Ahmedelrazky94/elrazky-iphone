@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:13.5.0"],\
+          ["gsap", "npm:3.12.5"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:18.3.1"],\
           ["react-scripts", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:5.0.1"],\
@@ -8548,6 +8549,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:13.5.0"],\
+          ["gsap", "npm:3.12.5"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:18.3.1"],\
           ["react-scripts", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:5.0.1"],\
