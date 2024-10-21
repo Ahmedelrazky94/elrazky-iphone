@@ -33,8 +33,8 @@ export const Model = () => {
       </Canvas>
       <div className='flex justify-center gap-4 pb-8'>
         <button className='bg-white rounded-full h-10 w-10  px-5 py-2 fade' onClick={()=>{setIphoneColor(["white",40])}}></button>
-        <button className='bg-orange-200 rounded-full h-10 w-10  px-5 py-2 fade' onClick={()=>{setIphoneColor(["#fed7aa",30])}}></button>
         <button className='bg-yellow-100 rounded-full h-10 w-10  px-5 py-2 fade' onClick={()=>{setIphoneColor(["#fef9c3",40])}}></button>
+        <button className='bg-orange-200 rounded-full h-10 w-10  px-5 py-2 fade' onClick={()=>{setIphoneColor(["#fed7aa",30])}}></button>
         <button className='bg-[#F9D7BC] rounded-full h-10 w-10  px-5 py-2 fade' onClick={()=>{setIphoneColor(["#F9D7BC",40])}}></button>
         <button className='bg-slate-400 rounded-full h-10 w-10  px-5 py-2 fade' onClick={()=>{setIphoneColor(["#94a3b8",100])}}></button>
 
