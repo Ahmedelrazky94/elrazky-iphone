@@ -11,7 +11,7 @@ export const Nav = () => {
       <div className="flex justify-center gap-6 py-4">
         <a className="text-gray-400 hover:text-white" href="store">Store</a>
         <a  className="text-gray-400 hover:text-white" href="mac">Mac</a>
-        <a  className="text-gray-400 hover:text-white" href="iphone">Iphone</a>
+        <a  className="text-gray-400 hover:text-white" href="iphone">iphone</a>
         <a  className="text-gray-400 hover:text-white" href="support">Support</a>
       </div>
       <div className="flex py-4 gap-x-6">
