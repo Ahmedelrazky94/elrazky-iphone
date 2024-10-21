@@ -1,20 +1,22 @@
 import right from "../assets/images/right.svg"
 import watch from '../assets/images/watch.svg'
 import { HighlightFirst, HighlightSecond, HighlightThird, HighlightFourth } from '../assets/videos'
+import { useEffect } from "react"
 import gsap from 'gsap'
 export const Highlight = () => {
-    const tl = gsap.timeline({ repeat: 5 });
+    useEffect(()=>{
+        const tl = gsap.timeline({ repeat: 5 });
 
-    tl.to(".highlightvideo", { x: "0%", duration: 1 })
-        .to(".highlightvideo", { x: "0%", duration: 0, delay: 4 })
-        .to(".highlightvideo", { x: "-100%", duration: 1 })
-        .to(".highlightvideo", { x: "-100%", duration: 0, delay: 3 })
-        .to(".highlightvideo", { x: "-200%", duration: 1 })
-        .to(".highlightvideo", { x: "-200%", duration: 0, delay: 5 })
-        .to(".highlightvideo", { x: "-300%", duration: 1 })
-        .to(".highlightvideo", { x: "-300%", duration: 0, delay: 5 })
-
-        ;
+        tl.to(".highlightvideo", { x: "0%", duration: 1 })
+            .to(".highlightvideo", { x: "0%", duration: 0, delay: 4 })
+            .to(".highlightvideo", { x: "-100%", duration: 1 })
+            .to(".highlightvideo", { x: "-100%", duration: 0, delay: 3 })
+            .to(".highlightvideo", { x: "-200%", duration: 1 })
+            .to(".highlightvideo", { x: "-200%", duration: 0, delay: 5 })
+            .to(".highlightvideo", { x: "-300%", duration: 1 })
+            .to(".highlightvideo", { x: "-300%", duration: 0, delay: 5 });
+    }) //to ensure that animation start correctly because I have some problem in animation before
+  
 
     const highlights = [HighlightFirst, HighlightSecond, HighlightThird, HighlightFourth];
     return (
