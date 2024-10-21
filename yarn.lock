@@ -6057,9 +6057,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"elrazky-iphone@workspace:.":
+"elrazky-iPhone@workspace:.":
   version: 0.0.0-use.local
-  resolution: "elrazky-iphone@workspace:."
+  resolution: "elrazky-iPhone@workspace:."
   dependencies:
     "@gsap/react": "npm:^2.1.1"
     "@react-three/drei": "npm:^9.114.6"

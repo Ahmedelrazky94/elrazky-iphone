@@ -7,7 +7,7 @@ export const Hero = () => {
     useGSAP(
         () => {
             gsap.from('.fadeup', {duration: 2, y: 50,opacity: 1 }); 
-            gsap.from('.fade', {opacity: 0, duration: 5}); 
+            gsap.from('.fade', {opacity: 0.2, duration: 3}); 
         },
     );
     const [HeroVideo, changeHeroVideo] = useState(HeroVideoSec)
@@ -32,7 +32,7 @@ export const Hero = () => {
     return (
         <section ref={divRef} className="w-full py-20">
             <div>
-                <h2 className="text-stone-300 font-bold text-2xl text-center fade">iphone 15 PRO</h2>
+                <h2 className="text-stone-300 font-bold text-2xl text-center fade">iPhone 15 PRO</h2>
             </div>
             <video key={HeroVideo} autoPlay muted width="100%" className="w-full h-full py-5">
                 {/* added key to force react to re render the video component wen state changed */}

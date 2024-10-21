@@ -1,4 +1,4 @@
-import { Nav, Hero, Model,Highlight } from './sections';
+import { Nav, Hero, Model,Highlight,Explore,Chip,Footer } from './sections';
 function App() {
   return (
     <div className="App">
@@ -7,6 +7,9 @@ function App() {
         <Hero />
         <Highlight />
         <Model />
+        <Explore />
+        <Chip />
+        <Footer />
       </main>
     </div>
   );

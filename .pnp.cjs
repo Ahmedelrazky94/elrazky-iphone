@@ -11,14 +11,14 @@ const RAW_RUNTIME_STATE =
   ],\
   "dependencyTreeRoots": [\
     {\
-      "name": "elrazky-iphone",\
+      "name": "elrazky-iPhone",\
       "reference": "workspace:."\
     }\
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
-    ["elrazky-iphone", ["workspace:."]]\
+    ["elrazky-iPhone", ["workspace:."]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -8897,11 +8897,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["elrazky-iphone", [\
+    ["elrazky-iPhone", [\
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["elrazky-iphone", "workspace:."],\
+          ["elrazky-iPhone", "workspace:."],\
           ["@gsap/react", "npm:2.1.1"],\
           ["@react-three/drei", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:9.114.6"],\
           ["@react-three/fiber", "virtual:224dcae06646c90c05771a6e370df59f2d1d867ccabd609c47cd40cf49d2057d33e736ac5b29fb382a997d660a577fcf6f7ff237e6b6689fc50ad4b305e617dc#npm:8.17.9"],\
