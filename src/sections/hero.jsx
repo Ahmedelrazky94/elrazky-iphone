@@ -6,7 +6,7 @@ import { useGSAP } from '@gsap/react';
 export const Hero = () => {
     useGSAP(
         () => {
-            gsap.from('.fadeup', {opacity: 0, duration: 2, y: 50 }); 
+            gsap.from('.fadeup', {duration: 2, y: 50,opacity: 1 }); 
             gsap.from('.fade', {opacity: 0, duration: 5}); 
         },
     );
@@ -39,8 +39,8 @@ export const Hero = () => {
                 <source src={HeroVideo} />
             </video>
             <div className="flex flex-col justify-center items-center gap-y-4">
-            <button className="bg-blue-600 text-2xl px-5 py-2 text-white w-20 rounded-3xl hover:text-blue-600 hover:bg-white hover:border-s-blue-600 fade">Buy</button>
-            <h2 className="text-white text-2xl text-center fadeup">From 199$/Month or 999$</h2>
+            <button className="bg-blue-600 text-2xl px-5 py-2 text-white w-20 rounded-3xl hover:text-sky-600 hover:bg-white hover:border-s-sky-600 fade">Buy</button>
+            <h2 className="text-white text-2xl text-center fade">From 199$/Month or 999$</h2>
             </div>
         </section>    )
 }
