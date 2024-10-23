@@ -12,7 +12,7 @@ export const Chip = () => {
                 scrollTrigger: {
                   trigger: '#explore-sec',
                   start: 'top bottom',
-                  end:'bottom 50%',
+                  end:'bottom top',
                   scrub: true,
                 }
               });
@@ -24,8 +24,8 @@ export const Chip = () => {
             scale:1.3,
             scrollTrigger: {
               trigger: '#explore-sec',
-              start: 'top 75%',
-              stop: 'bottom 20%',
+              start: 'top bottom',
+              stop: 'bottom top',
               scrub: true,
             }
           });

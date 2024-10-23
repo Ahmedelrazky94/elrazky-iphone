@@ -1,2 +1,8 @@
 3d model must put in public folder to work
 use this website to convert 3d model to react component : https://gltf.pmnd.rs/
+
+to do :
+1-make animation better
+2-add mobile menu 
+3-optimize more for tablet
+4-make chip section more responsive
