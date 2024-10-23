@@ -34,7 +34,7 @@ export const Explore = () => {
       );
 
 return(
-    <section id="explore-sec" className="py-20">
+    <section id="explore-sec" className="py-20 bg-[#101010]">
         <div className="w-2/3 m-auto">
         <h2 className="text-gray-400 max-md:text-4xl text-6xl font-semibold  m-auto text-left">Explore the full story.</h2> 
         <h2 className="text-white text-6xl max-md:text-4xl font-semibold py-6 m-auto text-left mt-10">iPhone.<br /> forged in titanium.</h2> 
